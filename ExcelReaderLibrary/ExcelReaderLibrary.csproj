@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.41.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ActiveDirectoryAccountCreator\ActiveDirectoryAccountsLibrary.csproj" />
+    <ProjectReference Include="..\AmmsAccountsLibrary\AmmsAccountsLibrary.csproj" />
+    <ProjectReference Include="..\MappingLibrary\MappingLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

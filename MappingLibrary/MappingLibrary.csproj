@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.41.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ActiveDirectoryAccountCreator\ActiveDirectoryAccountsLibrary.csproj" />
+    <ProjectReference Include="..\AmmsAccountsLibrary\AmmsAccountsLibrary.csproj" />
+    <ProjectReference Include="..\EmailAccountsLibrary\EmailAccountsLibrary.csproj" />
+    <ProjectReference Include="..\PcControlAccountsLibrary\PcControlAccountsLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
